@@ -1,3 +1,5 @@
-    Orchestra.instrument(:render, "template/path") do
-      render(...)
-    end
+Fork of Orchestra, used as a testing ground for Dtrace probe integration.
+
+## Status
+
+A small proof of concept can be run. fountain.rb constantly fires two Dtrace events. tube.rb can consume them if run as root.
