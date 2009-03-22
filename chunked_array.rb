@@ -32,6 +32,7 @@ class ChunkedArray
   end
 end
 
+=begin
 describe "a chunked Array" do
   before(:each) do
     @array = ChunkedArray.new
@@ -54,3 +55,4 @@ describe "a chunked Array" do
     @array[749].should == 749
   end
 end
+=end

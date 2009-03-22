@@ -288,7 +288,7 @@ end
 #   end
 # end
 
-
+=begin
 stream = Orchestra::Stream.new
 listener = Orchestra::Listener.new(stream, "hello")
 
@@ -307,3 +307,4 @@ loop {
   stream.push("hello", "payload")
   i += 1
 }
+=end
